@@ -134,6 +134,7 @@ const RestaurantCard = () =>{
         <h2>{restaurantList[0].name}</h2>
         <h2>{restaurantList[0].locality}</h2>
         <h2>{restaurantList[0].cuisines.join(",")}</h2>
+        <h2>{restaurantList[0].cuisines.join(",")}</h2>
     </div>
   )
 }
