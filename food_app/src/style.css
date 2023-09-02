@@ -29,15 +29,17 @@
     border: 2px solid gray;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin: 3%;
     justify-content: center;
     align-items: center; 
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
 
 .restaurant-list>h2{
     margin-top: -3px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .restaurant-list>img{
