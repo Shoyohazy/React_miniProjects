@@ -5,7 +5,10 @@
  ---footer(links and all that stuff)
 
 */
+<<<<<<< HEAD
 import "./style.css";
+=======
+>>>>>>> 80294058399d3ce4cf6711ab5df425ef49064f44
 
 const Logo = () =>(
   <img 
@@ -16,6 +19,7 @@ const Logo = () =>(
 )
 const Navbar = () =>{
   return(
+<<<<<<< HEAD
     <div className = "Header">
       <Logo />
       <div className = "nav-items">
@@ -157,12 +161,21 @@ const Footer = () =>{
     return <h3>footer</h3>
 }
 
+=======
+    <Logo />
+  )
+};
+
+>>>>>>> 80294058399d3ce4cf6711ab5df425ef49064f44
 function App() {
   return(
     <>
       <Navbar />
+<<<<<<< HEAD
       <Body />
       <Footer />
+=======
+>>>>>>> 80294058399d3ce4cf6711ab5df425ef49064f44
     </>
   );
 }
