@@ -12,8 +12,6 @@ const RestaurantCard = ({name , locality , costForTwo , cloudinaryImageId , area
           <h2>{locality}</h2>
           <h2>{areaName}</h2>
           <h2>{costForTwo}</h2>
-          
-         
       </div>
     )
   }
