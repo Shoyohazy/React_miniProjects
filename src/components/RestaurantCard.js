@@ -5,6 +5,7 @@ const RestaurantCard = ({name , locality , costForTwo , cloudinaryImageId , area
     return(
       <div className = "restaurant-list">
           <img 
+          className="card-image"
           alt = "logo"
           src = {FOOD_IMG + cloudinaryImageId}
           />
