@@ -1,6 +1,6 @@
 
 const Shimmer = () =>{
-    return <h2>Loading...</h2>
+    return <h1>Loading</h1>;
 }
 
 
