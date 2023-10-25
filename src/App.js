@@ -9,9 +9,11 @@ import "./style.css";
 import Navbar from "./components/Navbar";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
+import About from "./components/About";
+import { createBrowserRouter } from "react-router-dom";
 
 function App() {
-  return(
+  return (
     <>
       <Navbar />
       <Body />
@@ -20,4 +22,15 @@ function App() {
   );
 }
 
-export default App;
+const appRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/about",
+    element: <About />,
+  },
+]);
+
+export default appRouter;
